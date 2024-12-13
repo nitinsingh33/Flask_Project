@@ -63,20 +63,7 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
 
 
 
- Flask, render_template, request, redirect, url_for
-
-app = Flask(__name__)
-
-# Mock database
-tasks = []
-
-@app.route('/')
-def index():
-    return render_template('index.html', tasks=tasks)
-
-@app.route('/add', methods=['POST'])
-def add_task():
-    task = request.form['task']
+ 
     tasks.append({'task': task, 'completed': False})
     return redirect(url_for('index'))
 
