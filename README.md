@@ -64,19 +64,4 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
 
 
  
-   
-    
 
-
-1. Create a GitHub repository.
-2. Initialize Git in your project folder:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin <repository-URL>
-   git push -u origin main
-   ```
-
-Let me know if you need help with any part of this!
