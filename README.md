@@ -63,14 +63,7 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
 
 
 
-│   ├── style.css
-```
-
-#### **Code**:
-
-**1. app.py**
-```python
-from flask import Flask, render_template, request, redirect, url_for
+ Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
