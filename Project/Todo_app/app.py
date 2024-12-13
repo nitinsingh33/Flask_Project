@@ -11,4 +11,10 @@ def index():
 @app.route('/add', methods=['POST'])
 def add_task():
     task = request.form['task']
-    tasks.append({'task': task, ''})
+    tasks.append({'task': task, 'completed': False})
+    return redirect(url_for('index'))
+
+@app.route('/complete/<int:task_id>')
+def complete_task(task_id):
+    if 0 <= task_id < len(tasks):
+        tasks[]
