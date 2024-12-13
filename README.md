@@ -1,9 +1,7 @@
-
-
 ## What is Flask?
-Flask is a lightweight, easy-to-use web framework written in Python. It is widely used for developing web applications and APIs due to its simplicity and flexibility.
+**Flask is a lightweight, easy-to-use web framework written in Python. It is widely used for developing web applications and APIs due to its simplicity and flexibility.**
 
-Key Features:
+### Key Features:
 *   **Lightweight and Modular:** Minimal setup, you can add components    as    needed.
 
 *   **Routing:** Maps URLs to specific functions in your code.
