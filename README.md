@@ -60,12 +60,7 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
 
 ---
 
-### **Mini Project: To-Do List App**
 
-#### **Features**:
-1. Add new tasks.
-2. View a list of tasks.
-3. Mark tasks as completed.
 
 #### **Project Structure**:
 ```
