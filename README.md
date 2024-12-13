@@ -11,35 +11,7 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
 6. **WSGI Compatibility**: Based on Werkzeug, a WSGI toolkit.
 
 ---
-### **Getting Started with Flask**
 
-1. **Installation**:
-   ```bash
-   pip install flask
-   ```
-
-2. **Basic "Hello, World!" App**:
-   ```python
-   from flask import Flask
-
-   app = Flask(__name__)
-
-   @app.route('/')
-   def hello_world():
-       return 'Hello, World!'
-
-   if __name__ == '__main__':
-       app.run(debug=True)
-   ```
-
-3. **Running the Application**:
-   Save the file (e.g., `app.py`) and run:
-   ```bash
-   python app.py
-   ```
-   Open `http://127.0.0.1:5000` in your browser.
-
----
 
 ### **Key Concepts**
 
