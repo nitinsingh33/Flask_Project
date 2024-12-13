@@ -65,16 +65,7 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
 
  
    
-    <ul>
-        {% for task in tasks %}
-        <li style="text-decoration: {{ 'line-through' if task.completed else 'none' }};">
-            {{ task.task }}
-            {% if not task.completed %}
-            <a href="{{ url_for('complete_task', task_id=loop.index0) }}">Mark as Completed</a>
-            {% endif %}
-        </li>
-        {% endfor %}
-    </ul>
+    
 </body>
 </html>
 ```
