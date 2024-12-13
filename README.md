@@ -66,24 +66,7 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
  
    
     
-</body>
-</html>
-```
 
-**3. static/style.css**
-```css
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
-}
-
-h1 {
-    color: #333;
-}
-
-form {
-    margin-bottom: 20px;
 }
 
 ul {
