@@ -64,35 +64,7 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
 
 
  
-    tasks.append({'task': task, 'completed': False})
-    return redirect(url_for('index'))
-
-@app.route('/complete/<int:task_id>')
-def complete_task(task_id):
-    if 0 <= task_id < len(tasks):
-        tasks[task_id]['completed'] = True
-    return redirect(url_for('index'))
-
-if __name__ == '__main__':
-    app.run(debug=True)
-```
-
-**2. templates/index.html**
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>To-Do List</title>
-</head>
-<body>
-    <h1>To-Do List</h1>
-    <form action="/add" method="post">
-        <input type="text" name="task" placeholder="New Task" required>
-        <button type="submit">Add</button>
-    </form>
+   
     <ul>
         {% for task in tasks %}
         <li style="text-decoration: {{ 'line-through' if task.completed else 'none' }};">
