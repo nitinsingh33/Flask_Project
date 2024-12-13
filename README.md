@@ -59,9 +59,3 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
    Use libraries like `SQLAlchemy` for database management.
 
 ---
-
-
-
-
- 
-
