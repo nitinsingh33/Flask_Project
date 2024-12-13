@@ -17,4 +17,8 @@ def add_task():
 @app.route('/complete/<int:task_id>')
 def complete_task(task_id):
     if 0 <= task_id < len(tasks):
-        tasks[]
+        tasks[task_id]['complete'] = True
+    return redirect(url_for('index'))
+
+if __name__ == '__main__':
+    app.run(debug=True)    
