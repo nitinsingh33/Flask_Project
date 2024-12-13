@@ -67,24 +67,7 @@ Flask is a lightweight, easy-to-use web framework written in Python. It is widel
    
     
 
-}
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-```
-
-#### **Run and Test**:
-1. Start the server:
-   ```bash
-   python app.py
-   ```
-2. Open `http://127.0.0.1:5000` in your browser.
-
----
-
-### **Upload to GitHub**
 1. Create a GitHub repository.
 2. Initialize Git in your project folder:
    ```bash
